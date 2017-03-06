@@ -1,0 +1,2202 @@
+﻿Python 2.7.10 (v2.7.10:15c95b7d81dc, May 23 2015, 09:33:12) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+
+>>> # http://bit.ly/python-qc2
+>>> # http://bit.ly/py-install
+>>> ================================ RESTART ================================
+>>> 
+>>> __doc__
+'Good afternoon San Diego'
+>>> # Underscore underscore doc underscore underscore
+>>> # Underscore underscore doc
+>>> # Under under doc
+>>> # Double-under doc
+>>> # Dunder doc
+>>> dir(int)
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__format__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'imag', 'numerator', 'real']
+>>> dir(str)
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_formatter_field_name_split', '_formatter_parser', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'index', 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> 
+>>> __name__
+'__main__'
+>>> # The first module to run is named __main__
+>>> # All import modules have the filename without the .py
+>>> ================================ RESTART ================================
+>>> 
+>>> import hello
+>>> hello.__name__
+'hello'
+>>> ================================ RESTART ================================
+>>> 
+My name is __main__
+My docstring is Good afternoon San Diego
+>>> ================================ RESTART ================================
+>>> 
+My name is __main__
+My docstring is Good afternoon San Diego
+>>> ================================ RESTART ================================
+>>> import hello
+My name is hello
+My docstring is Good afternoon San Diego
+>>> ================================ RESTART ================================
+>>> 
+My name is __main__
+My docstring is Good afternoon San Diego
+Woohoo! I was run first.
+>>> ================================ RESTART ================================
+>>> 
+My name is __main__
+My docstring is Good afternoon San Diego
+Woohoo! I was run first.
+>>> ================================ RESTART ================================
+>>> import hello
+My name is hello
+My docstring is Good afternoon San Diego
+Oh no! I was imported.
+>>> ================================ RESTART ================================
+>>> import hello
+My name is hello
+My docstring is Good afternoon San Diego
+Oh no! I was imported.
+>>> 30 + 40
+70
+>>> ================================ RESTART ================================
+>>> 
+My name is __main__
+My docstring is Good afternoon San Diego
+Woohoo! I was run first.
+>>> __doc__
+'Good afternoon San Diego'
+>>> ================================ RESTART ================================
+>>> 
+My name is __main__
+My docstring is Good afternoon San Diego
+Woohoo! I was run first.
+ Howdy!
+  Howdy!
+   Howdy!
+    Howdy!
+     Howdy!
+      Howdy!
+       Howdy!
+        Howdy!
+         Howdy!
+          Howdy!
+>>> ================================ RESTART ================================
+>>> 
+=============================== Source: http://dl.dropbox.com/u/3967849/qc2/links.txt ===============================
+                                    Starting download at Tue Aug 25 14:02:34 2015                                    
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/highlight.py
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/banner.py
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/BeautifulSoup.py
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/picirc.py
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/islands.pdf
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/__init__.py
+200  OK               https://dl.dropbox.com/u/3967849/qc2/dayfour.log        --> notes/dayfour.log         (current) 
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/publish.py
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/corpus.dat
+200* OK               https://dl.dropbox.com/u/3967849/shared/call_by_object.txt --> notes/call_by_object.txt  (current) 
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/pexpect.py
+200  OK               https://dl.dropbox.com/u/3967849/qc2/dayfive.log        --> notes/dayfive.log         (current) 
+200  OK               https://dl.dropbox.com/u/3967849/qc2/daytwo.log         --> notes/daytwo.log          (updated) 
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/raisin_team.csv
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/fsm.py
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/PythonAwesome.pdf
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/family_template.txt
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/crossword_challenge.py
+200  OK               https://dl.dropbox.com/u/3967849/qc2/daythree.log       --> notes/daythree.log        (current) 
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/norvig_corrector.py
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/member_template.txt
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/raisin_team_update.csv
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/team_history.json
+200* OK               https://dl.dropbox.com/u/3967849/shared/rss.xml         --> notes/rss.xml             (current) 
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/email.txt
+200* OK               https://dl.dropbox.com/u/3967849/shared/books.json      --> notes/books.json          (current) 
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/team_history.txt
+304  NOT MODIFIED     https://dl.dropbox.com/u/3967849/shared/stocks.txt
+200* OK               https://dl.dropbox.com/u/3967849/shared/re.txt          --> notes/re.txt              (current) 
+200* OK               https://dl.dropbox.com/u/3967849/shared/fruit.xml       --> notes/fruit.xml           (current) 
+200* OK               https://dl.dropbox.com/u/3967849/shared/books.xml       --> notes/books.xml           (current) 
+200* OK               https://dl.dropbox.com/u/3967849/qc2/dayone.log         --> notes/dayone.log          (updated) 
+200* OK               https://dl.dropbox.com/u/3967849/shared/nasa_19950801.log --> notes/nasa_19950801.log   (current) 
+200* OK               https://dl.dropbox.com/u/3967849/shared/hamlet.txt      --> notes/hamlet.txt          (current) 
+200* OK               https://dl.dropbox.com/u/3967849/shared/words.txt       --> notes/words.txt           (current) 
+>>> ================================ RESTART ================================
+>>> 
+>>> __name__
+'__main__'
+>>> __doc__
+' Quick tour of Python '
+>>> owner
+{}
+>>> type(__name__)
+<type 'str'>
+>>> type(owner)
+<type 'dict'>
+>>> ================================ RESTART ================================
+>>> 
+>>> owner
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+>>> ================================ RESTART ================================
+>>> 
+>>> owner
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+>>> import os
+>>> # create shortcut    change properties   startup directory
+>>> # just save everything in c:\\python27
+>>> 
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+>>> type(owner)
+<type 'dict'>
+>>> dir(owner)
+['__class__', '__cmp__', '__contains__', '__delattr__', '__delitem__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'clear', 'copy', 'fromkeys', 'get', 'has_key', 'items', 'iteritems', 'iterkeys', 'itervalues', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values', 'viewitems', 'viewkeys', 'viewvalues']
+>>> help(owner)
+Help on dict object:
+
+class dict(object)
+ |  dict() -> new empty dictionary
+ |  dict(mapping) -> new dictionary initialized from a mapping object's
+ |      (key, value) pairs
+ |  dict(iterable) -> new dictionary initialized as if via:
+ |      d = {}
+ |      for k, v in iterable:
+ |          d[k] = v
+ |  dict(**kwargs) -> new dictionary initialized with the name=value pairs
+ |      in the keyword argument list.  For example:  dict(one=1, two=2)
+ |  
+ |  Methods defined here:
+ |  
+ |  __cmp__(...)
+ |      x.__cmp__(y) <==> cmp(x,y)
+ |  
+ |  __contains__(...)
+ |      D.__contains__(k) -> True if D has a key k, else False
+ |  
+ |  __delitem__(...)
+ |      x.__delitem__(y) <==> del x[y]
+ |  
+ |  __eq__(...)
+ |      x.__eq__(y) <==> x==y
+ |  
+ |  __ge__(...)
+ |      x.__ge__(y) <==> x>=y
+ |  
+ |  __getattribute__(...)
+ |      x.__getattribute__('name') <==> x.name
+ |  
+ |  __getitem__(...)
+ |      x.__getitem__(y) <==> x[y]
+ |  
+ |  __gt__(...)
+ |      x.__gt__(y) <==> x>y
+ |  
+ |  __init__(...)
+ |      x.__init__(...) initializes x; see help(type(x)) for signature
+ |  
+ |  __iter__(...)
+ |      x.__iter__() <==> iter(x)
+ |  
+ |  __le__(...)
+ |      x.__le__(y) <==> x<=y
+ |  
+ |  __len__(...)
+ |      x.__len__() <==> len(x)
+ |  
+ |  __lt__(...)
+ |      x.__lt__(y) <==> x<y
+ |  
+ |  __ne__(...)
+ |      x.__ne__(y) <==> x!=y
+ |  
+ |  __repr__(...)
+ |      x.__repr__() <==> repr(x)
+ |  
+ |  __setitem__(...)
+ |      x.__setitem__(i, y) <==> x[i]=y
+ |  
+ |  __sizeof__(...)
+ |      D.__sizeof__() -> size of D in memory, in bytes
+ |  
+ |  clear(...)
+ |      D.clear() -> None.  Remove all items from D.
+ |  
+ |  copy(...)
+ |      D.copy() -> a shallow copy of D
+ |  
+ |  fromkeys(...)
+ |      dict.fromkeys(S[,v]) -> New dict with keys from S and values equal to v.
+ |      v defaults to None.
+ |  
+ |  get(...)
+ |      D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None.
+ |  
+ |  has_key(...)
+ |      D.has_key(k) -> True if D has a key k, else False
+ |  
+ |  items(...)
+ |      D.items() -> list of D's (key, value) pairs, as 2-tuples
+ |  
+ |  iteritems(...)
+ |      D.iteritems() -> an iterator over the (key, value) items of D
+ |  
+ |  iterkeys(...)
+ |      D.iterkeys() -> an iterator over the keys of D
+ |  
+ |  itervalues(...)
+ |      D.itervalues() -> an iterator over the values of D
+ |  
+ |  keys(...)
+ |      D.keys() -> list of D's keys
+ |  
+ |  pop(...)
+ |      D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
+ |      If key is not found, d is returned if given, otherwise KeyError is raised
+ |  
+ |  popitem(...)
+ |      D.popitem() -> (k, v), remove and return some (key, value) pair as a
+ |      2-tuple; but raise KeyError if D is empty.
+ |  
+ |  setdefault(...)
+ |      D.setdefault(k[,d]) -> D.get(k,d), also set D[k]=d if k not in D
+ |  
+ |  update(...)
+ |      D.update([E, ]**F) -> None.  Update D from dict/iterable E and F.
+ |      If E present and has a .keys() method, does:     for k in E: D[k] = E[k]
+ |      If E present and lacks .keys() method, does:     for (k, v) in E: D[k] = v
+ |      In either case, this is followed by: for k in F: D[k] = F[k]
+ |  
+ |  values(...)
+ |      D.values() -> list of D's values
+ |  
+ |  viewitems(...)
+ |      D.viewitems() -> a set-like object providing a view on D's items
+ |  
+ |  viewkeys(...)
+ |      D.viewkeys() -> a set-like object providing a view on D's keys
+ |  
+ |  viewvalues(...)
+ |      D.viewvalues() -> an object providing a view on D's values
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |  
+ |  __hash__ = None
+ |  
+ |  __new__ = <built-in method __new__ of type object>
+ |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+
+>>> 
+>>> 
+>>> help(owner.keys)
+Help on built-in function keys:
+
+keys(...)
+    D.keys() -> list of D's keys
+
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'matthew'}
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+>>> type(parts)
+<type 'list'>
+>>> dir(parts)
+['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__delslice__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getslice__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__setslice__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+>>> 
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+>>> parts[1]
+'555 timer'
+>>> parts[50]
+
+Traceback (most recent call last):
+  File "<pyshell#45>", line 1, in <module>
+    parts[50]
+IndexError: list index out of range
+>>> owner['roger']
+
+Traceback (most recent call last):
+  File "<pyshell#46>", line 1, in <module>
+    owner['roger']
+KeyError: 'roger'
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+
+Traceback (most recent call last):
+  File "/Users/raymond/Dropbox/Public/qc2/basics.py", line 29, in <module>
+    print parts[50]
+IndexError: list index out of range
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+>>> print newlist
+['opamp', '555 timer']
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+>>> newlist
+['opamp', '555 timer']
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['555 timer', '7404', 'opamp']
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+>>> __doc__
+' Quick tour of Python '
+>>> __name__
+'__main__'
+>>> cube.__name__
+'cube'
+>>> cube.__doc__
+'Return a value times itself thrice'
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+
+Traceback (most recent call last):
+  File "/Users/raymond/Dropbox/Public/qc2/basics.py", line 63, in <module>
+    family(['mike', 'marcia', 'greg', 'jan', 'cindy', 'bobby'], 'brady')
+  File "/Users/raymond/Dropbox/Public/qc2/basics.py", line 56, in family
+    print 'The %s Family' % lastname.title()
+AttributeError: 'list' object has no attribute 'title'
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+
+Traceback (most recent call last):
+  File "/Users/raymond/Dropbox/Public/qc2/basics.py", line 63, in <module>
+    family(lastname=['mike', 'marcia', 'greg', 'jan', 'cindy', 'bobby'], first_names='brady')
+  File "/Users/raymond/Dropbox/Public/qc2/basics.py", line 56, in family
+    print 'The %s Family' % lastname.title()
+AttributeError: 'list' object has no attribute 'title'
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+The Brady Family
+=================
+* Mike
+* Marcia
+* Greg
+* Jan
+* Cindy
+* Bobby
+
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+The Brady Family
+==================
+* Mike
+* Marcia
+* Greg
+* Jan
+* Peter
+* Cindy
+* Bobby
+
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+The Brady Family
+==================
+* Mike
+* Marcia
+* Greg
+* Jan
+* Peter
+* Cindy
+* Bobby
+
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+The Brady Family
+==================
+* Mike
+* Marcia
+* Greg
+* Jan
+* Peter
+* Cindy
+* Bobby
+
+True
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+The Brady Family
+==================
+* Mike
+* Marcia
+* Greg
+* Jan
+* Peter
+* Cindy
+* Bobby
+
+Specs for: Active low pass filter
+True
+>>> type(Interconnection)
+<type 'classobj'>
+>>> __doc__
+' Quick tour of Python '
+>>> cube.__doc__
+'Return a value times itself thrice'
+>>> Interconnection.__doc__
+'Show the pin requirements for a PC board'
+>>> __name__
+'__main__'
+>>> cube.__name__
+'cube'
+>>> Interconnection.__name__
+'Interconnection'
+>>> help(Interconnection)
+Help on class Interconnection in module __main__:
+
+class Interconnection
+ |  Show the pin requirements for a PC board
+ |  
+ |  Methods defined here:
+ |  
+ |  __init__(self, board_name)
+ |  
+ |  add_pin(self, pin, connection)
+ |      Record a new pin connection requirement
+ |  
+ |  check_pin(self, pin, connection)
+ |      Verify a pin connection requirement
+
+>>> prototype
+<__main__.Interconnection instance at 0x102fd9050>
+>>> prototype.board_name
+'Active low pass filter'
+>>> prototype.connections
+{8: 'Ground 2amps max', 12: 'Vcc +5V', 5: 'Signal 8 ohms'}
+>>> prototype.check_pin(5, 'Vcc +12V')
+False
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+The Brady Family
+==================
+* Mike
+* Marcia
+* Greg
+* Jan
+* Peter
+* Cindy
+* Bobby
+
+Specs for: Active low pass filter
+True
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+The Brady Family
+==================
+* Mike
+* Marcia
+* Greg
+* Jan
+* Peter
+* Cindy
+* Bobby
+
+Specs for: Active low pass filter
+True
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+The Brady Family
+==================
+* Mike
+* Marcia
+* Greg
+* Jan
+* Peter
+* Cindy
+* Bobby
+
+Specs for: Active low pass filter
+True
+202238
+The Tragedy of Hamlet, Prince of Denmark
+Shakespeare homepage | Hamlet | Entire play
+ACT I
+SCENE I. Elsinore. A platform before the castle.
+
+    FRANCISCO at his post. Enter to him BERNARDO 
+
+BERNARDO
+
+    Who's there?
+
+FRANCISCO
+
+    Nay, answer me: stand, and unfold yourself.
+
+BERNARDO
+
+    Long live the king!
+
+FRANCISCO
+
+    Bernardo?
+
+BERNARDO
+
+    He.
+
+FRANCISCO
+
+
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>> ================================ RESTART ================================
+>>> 
+{'pc': 'rachel', 'mac': 'raymond', 'vtech': 'matthew'}
+3
+True
+False
+['pc', 'mac', 'vtech']
+['rachel', 'raymond', 'matthew']
+[('pc', 'rachel'), ('mac', 'raymond'), ('vtech', 'matthew')]
+{'pc': 'rachel', 'vtech': 'tom'}
+I have a opamp
+I have a 555 timer
+I have a 7404
+opamp
+There is no part 50
+Done
+['opamp', '7404', '555 timer']
+['opamp', '7404', '555 timer', 'voltage regulator']
+voltage regulator
+1331
+The Simpsons Family
+================
+* Homer
+* Marge
+* Bart
+* Lisa
+* Maggie
+
+The Brady Family
+==================
+* Mike
+* Marcia
+* Greg
+* Jan
+* Peter
+* Cindy
+* Bobby
+
+Specs for: Active low pass filter
+True
+202238
+The Tragedy of Hamlet, Prince of Denmark
+Shakespeare homepage | Hamlet | Entire play
+ACT I
+SCENE I. Elsinore. A platform before the castle.
+
+    FRANCISCO at his post. Enter to him BERNARDO 
+
+BERNARDO
+
+    Who's there?
+
+FRANCISCO
+
+    Nay, answer me: stand, and unfold yourself.
+
+BERNARDO
+
+    Long live the king!
+
+FRANCISCO
+
+    Bernardo?
+
+BERNARDO
+
+    He.
+
+FRANCISCO
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>Th
+>>> 
+>>> 
+>>> # Number theory
+>>> 30 + 40
+70
+>>> 55 - 3
+52
+>>> 55 * 5
+275
+>>> 32 / 5
+6
+>>> # (int / int) -> int
+>>> 
+>>> 4 / 3 + 7 / 3 + 1 / 3
+3
+>>> # floor division
+>>> 32 / 5
+6
+>>> -32 / 5
+-7
+>>> from __future__ import division
+>>> 32 / 5
+6.4
+>>> 4 / 3 + 7 / 3 + 1 / 3
+4.0
+>>> 0 / 1
+0.0
+>>> ================================ RESTART ================================
+>>> 0 / 1
+0
+>>> 0 / 0
+
+Traceback (most recent call last):
+  File "<pyshell#84>", line 1, in <module>
+    0 / 0
+ZeroDivisionError: integer division or modulo by zero
+>>> 
+>>> from __future__ import division         # pragma
+>>> "32 / 5"           floordivision -> truedivision
+SyntaxError: invalid syntax
+>>> ================================ RESTART ================================
+>>> # Can ya ______ in Python?      Yes!
+>>> # Should ya ___ in Python?       No!
+>>> 
+>>> 
+>>> ================================ RESTART ================================
+>>> def average(sequence):
+	'Return the arithmetic mean for a sequence of numbers'
+	# https://en.wikipedia.org/wiki/Arithmetic_mean#Definition
+	return sum(sequence) / len(sequence)
+
+>>> average([10, 20, 60])
+30
+>>> average([10, 20, 61])
+30
+>>> 91 / 3
+30
+>>> from __future__ import division
+>>> def average(sequence):
+	'Return the arithmetic mean for a sequence of numbers'
+	# https://en.wikipedia.org/wiki/Arithmetic_mean#Definition
+	return sum(sequence) / len(sequence)
+
+>>> average([10, 20, 60])
+30.0
+>>> average([10, 20, 61])
+30.333333333333332
+>>> 
+>>> 32.0 / 6.0
+5.333333333333333
+>>> 
+>>> 32 // 5
+6
+>>> 32.0 // 5.0
+6.0
+>>> 2 ** 5
+32
+>>> 2 ^ 5
+7
+>>> bin(51)
+'0b110011'
+>>> bin(17)
+'0b10001'
+>>> bin(51 & 17)         # bitwise and
+'0b10001'
+>>> bin(51 | 17)         # bitwise or
+'0b110011'
+>>> bin(51 ^ 17)         # bitwise xor
+'0b100010'
+>>> bin(51 & ~17)         # bitwise and - not
+'0b100010'
+>>> bin(51 << 2)         # bitwise left shift
+'0b11001100'
+>>> bin(51 >> 2)         # bitwise right shift
+'0b1100'
+>>> 51 << 2
+204
+>>> 51 * 4
+204
+>>> bin(51)
+'0b110011'
+>>> oct(51)
+'063'
+>>> str(51)
+'51'
+>>> hex(51)
+'0x33'
+>>> 0b101
+5
+>>> 012
+10
+>>> 0x32
+50
+>>> 0x32 == 50
+True
+>>> 
+>>> 
+>>> # Kronecker -- God created the integers, all the rest is the work of man.
+>>> 
+>>> 11 + 22 == 33
+True
+>>> type(1.1)
+<type 'float'>
+>>> 1.1 + 2.2 == 3.3
+False
+>>> s = 1.1 + 2.2
+>>> s
+3.3000000000000003
+>>> t = 3.3
+>>> s == t
+False
+>>> 
+>>> abs(s - t) < 0.0000001         # Are s and t very close to each other
+True
+>>> 
+>>> type(True)
+<type 'bool'>
+>>> type(False)
+<type 'bool'>
+>>> isinstance(True, int)
+True
+>>> isinstance(True, bool)
+True
+>>> isinstance(False, int)
+True
+>>> isinstance(False, bool)
+True
+>>> issubclass(bool, int)
+True
+>>> 5 + True
+6
+>>> 8 * False
+0
+>>> sum([True, True, False, True])
+3
+>>> # Voltage  V --> E
+>>> # Current  C --> I
+>>> # Imaginary I --> J
+>>> 3 + 4j
+(3+4j)
+>>> type(_)
+<type 'complex'>
+>>> (3 + 4j) * (7 + 5j)
+(1+43j)
+>>> # Principal use case:  Rapid computation of rotation and zooming in mapped displays
+>>> 
+>>> 
+>>> 30 + 40
+70
+>>> _ * 10
+700
+>>> _ * 10
+7000
+>>> _ * 10
+70000
+>>> type(_)
+<type 'int'>
+>>> 
+>>> 
+>>> bin(2**5 - 1)
+'0b11111'
+>>> bin(2**6 - 1)
+'0b111111'
+>>> bin(2**7 - 1)
+'0b1111111'
+>>> bin(2**200 - 1)
+'0b11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111'
+>>> 2 ** 500 - 1
+3273390607896141870013189696827599152216642046043064789483291368096133796404674554883270092325904157150886684127560071009217256545885393053328527589375L
+>>> type(_)
+<type 'long'>
+>>> 
+>>> # The Nature of Truth
+>>> 
+>>> # All things start by being True
+>>> # They have to learn to be False
+>>> # There are only 3 false things in Python:
+>>> # 1) Numbers equal to zero are false
+>>> # 2) Empty containers (length is zero) are false
+>>> # 3) None is false
+>>> # Everything else is True
+>>> 
+>>> bool(15)
+True
+>>> bool(0)
+False
+>>> bool(0.0)
+False
+>>> bool(0.0 + 5j)
+True
+>>> bool(0.0 + 0j)
+False
+>>> bool(True)
+True
+>>> bool(False)
+False
+>>> bool([10, 20, 30])
+True
+>>> bool([False, 0])
+True
+>>> bool([])
+False
+b
+>>> 
+>>> bool({})
+False
+>>> bool('False')
+True
+>>> len('False')
+5
+>>> bool('')
+False
+>>> bool(None)
+False
+>>> class A:
+	pass
+
+>>> bool(A)
+True
+>>> bool(A())
+True
+>>> class A:
+	def __len__(self):
+		return 0
+
+	
+>>> 
+>>> len(A())
+0
+>>> bool(A())
+False
+>>> 
+>>> 
+>>> # String Theory
+>>> 
+>>> # There are four quoting characters: ' " ''' """
+>>> print 'hello'
+hello
+>>> print "hello"
+hello
+>>> print '''hello'''
+hello
+>>> print """hello"""
+hello
+>>> # Rule:  The first quoting character IS the quoting character
+>>> # any others are just part of the string
+>>> 
+>>> print "Don't you forget about me"
+Don't you forget about me
+>>> 
+>>> # She said, "Hello Raymond!"
+>>> print 'She said, "Hello Raymond!"'
+She said, "Hello Raymond!"
+>>> # She said, "Don't you forget about me"
+>>> 'hello' + 'world'
+'helloworld'
+>>> 'hello'  'world'
+'helloworld'
+>>> 'hello'  "world"
+'helloworld'
+>>> 'hello'"world"'random stuff'
+'helloworldrandom stuff'
+>>> 
+>>> print '''She said, "Don't you forget about me"'''
+She said, "Don't you forget about me"
+>>> print  """She said, "Don't you forget about me""""
+SyntaxError: EOL while scanning string literal
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> print 'Three\nblind\nmice\n'
+Three
+blind
+mice
+
+>>> print '''Three
+blind
+mice
+'''
+Three
+blind
+mice
+
+>>> print 'Three\\nblind\\nmice\\n'
+Three\nblind\nmice\n
+>>> print r'Three\nblind\nmice\n'         # raw string -- backslashes aren't special
+Three\nblind\nmice\n
+>>> # C:\\My Documents and Settings\Raymond\textfiles\bio.txt
+>>> print 'C:\\\\My Documents and Settings\\Raymond\\textfiles\\bio.txt'
+C:\\My Documents and Settings\Raymond\textfiles\bio.txt
+>>> print r'C:\\My Documents and Settings\Raymond\textfiles\bio.txt'
+C:\\My Documents and Settings\Raymond\textfiles\bio.txt
+>>> 
+>>> print 'hello'
+hello
+>>> print u'hello'
+hello
+>>> type('hello')
+<type 'str'>
+>>> type(u'hello')
+<type 'unicode'>
+>>> # str:  array of bytes (numbers between 0 and 255)
+>>> # use cases:   ASCII (0<=x<=127)
+>>> # use cases:   LATIN (0<=x<=255)            65->'A'    246-> umlaut o
+>>> # use cases:   ISO-8859-7 (0<=x<=255)       65->'A'    246-> cyrllic letter I
+>>> # use cases:   Binary (0<=x<=255)
+>>> 
+>>> # unicode:  array of multibyte values (numbers from 0 to 1,000,000+)
+>>> 
+>>> print u'The answer is \u0664\u0662 today'
+The answer is ٤٢ today
+>>> print 'TheRaymondWay(tm)'
+TheRaymondWay(tm)
+>>> print u'TheRaymondWay\u2122'
+TheRaymondWay™
+>>> print u'TheRaymondWay\N{}
+SyntaxError: EOL while scanning string literal
+>>> print u'TheRaymondWay\N{trade mark symbol}'
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 13-33: unknown Unicode character name
+>>> print u'TheRaymondWay\N{trade mark sign}'
+TheRaymondWay™
+>>> # /Users/Raymond/textfiles/bio.txt
+>>> 
+>>> 
+>>> print 'The answer is %d today' % 10
+The answer is 10 today
+>>> print 'The answer is %d today but was %d yesterday' % (10, 20)
+The answer is 10 today but was 20 yesterday
+>>> ================================ RESTART ================================
+>>> 
+>>> __name__
+'__main__'
+>>> __doc__
+' An old, true, and lurid tale of Python\n    featuring raisins, pushy relatives,\n    checkerboards, business cards, and\n    getting much needed rest.\n'
+>>> ================================ RESTART ================================
+>>> 
+>>> f
+<open file 'notes/raisin_team.csv', mode 'r' at 0x1025d2a50>
+>>> type(f)
+<type 'file'>
+>>> dir(f)
+['__class__', '__delattr__', '__doc__', '__enter__', '__exit__', '__format__', '__getattribute__', '__hash__', '__init__', '__iter__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'close', 'closed', 'encoding', 'errors', 'fileno', 'flush', 'isatty', 'mode', 'name', 'newlines', 'next', 'read', 'readinto', 'readline', 'readlines', 'seek', 'softspace', 'tell', 'truncate', 'write', 'writelines', 'xreadlines']
+>>> help(f.read)
+Help on built-in function read:
+
+read(...)
+    read([size]) -> read at most size bytes, returned as a string.
+    
+    If the size argument is negative or omitted, read until EOF is reached.
+    Notice that when in non-blocking mode, less data than what was requested
+    may be returned, even if no size parameter was given.
+
+>>> ================================ RESTART ================================
+>>> 
+Hettinger,Raymond,VP Raisin Smushing,raymond@example.com,559-555-1212
+Thomas,Mary,Sr. Associate Raisin Design,mary@example.com,559-555-2300
+Davis,Harold,Chief Raisin Picker,harold@example.com,559-555-2318
+Masterson,Martin,Asst Raisin Smusher,martin@example.com,559-555-2348
+Jones,David,Grape Ager,david@example.com,559-555-2379
+Zapata,Luis,VP Grape Sales,luis@example.com,559-555-2301
+Gunter,Fritz,Grape Smusher,fritz@example.com,559-555-2333
+Pichon,Esmerela,Head Raisin Counter,esmerelda@example.com,559-555-2397
+Blain,Marilyn,Raisin Packager,marilyn@example.com,559-555-6565
+Marks,Blair,VP Investor Relations,blair@example.com,559-555-6513
+Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700
+
+>>> f
+<open file 'notes/raisin_team.csv', mode 'r' at 0x102ed2a50>
+>>> ================================ RESTART ================================
+>>> 
+Hettinger,Raymond,VP Raisin Smushing,raymond@example.com,559-555-1212
+Thomas,Mary,Sr. Associate Raisin Design,mary@example.com,559-555-2300
+Davis,Harold,Chief Raisin Picker,harold@example.com,559-555-2318
+Masterson,Martin,Asst Raisin Smusher,martin@example.com,559-555-2348
+Jones,David,Grape Ager,david@example.com,559-555-2379
+Zapata,Luis,VP Grape Sales,luis@example.com,559-555-2301
+Gunter,Fritz,Grape Smusher,fritz@example.com,559-555-2333
+Pichon,Esmerela,Head Raisin Counter,esmerelda@example.com,559-555-2397
+Blain,Marilyn,Raisin Packager,marilyn@example.com,559-555-6565
+Marks,Blair,VP Investor Relations,blair@example.com,559-555-6513
+Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700
+
+>>> f
+<closed file 'notes/raisin_team.csv', mode 'r' at 0x1040f4a50>
+>>> ================================ RESTART ================================
+>>> 
+Hettinger,Raymond,VP Raisin Smushing,raymond@example.com,559-555-1212
+Thomas,Mary,Sr. Associate Raisin Design,mary@example.com,559-555-2300
+Davis,Harold,Chief Raisin Picker,harold@example.com,559-555-2318
+Masterson,Martin,Asst Raisin Smusher,martin@example.com,559-555-2348
+Jones,David,Grape Ager,david@example.com,559-555-2379
+Zapata,Luis,VP Grape Sales,luis@example.com,559-555-2301
+Gunter,Fritz,Grape Smusher,fritz@example.com,559-555-2333
+Pichon,Esmerela,Head Raisin Counter,esmerelda@example.com,559-555-2397
+Blain,Marilyn,Raisin Packager,marilyn@example.com,559-555-6565
+Marks,Blair,VP Investor Relations,blair@example.com,559-555-6513
+Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700
+
+>>> f
+<closed file 'notes/raisin_team.csv', mode 'r' at 0x1016cfa50>
+>>> ================================ RESTART ================================
+>>> 
+Hettinger,Raymond,VP Raisin Smushing,raymond@example.com,559-555-1212
+Thomas,Mary,Sr. Associate Raisin Design,mary@example.com,559-555-2300
+Davis,Harold,Chief Raisin Picker,harold@example.com,559-555-2318
+Masterson,Martin,Asst Raisin Smusher,martin@example.com,559-555-2348
+Jones,David,Grape Ager,david@example.com,559-555-2379
+Zapata,Luis,VP Grape Sales,luis@example.com,559-555-2301
+Gunter,Fritz,Grape Smusher,fritz@example.com,559-555-2333
+Pichon,Esmerela,Head Raisin Counter,esmerelda@example.com,559-555-2397
+Blain,Marilyn,Raisin Packager,marilyn@example.com,559-555-6565
+Marks,Blair,VP Investor Relations,blair@example.com,559-555-6513
+Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700
+
+>>> f
+<closed file 'notes/raisin_team.csv', mode 'r' at 0x1025d2a50>
+>>> ================================ RESTART ================================
+>>> 
+Hettinger,Raymond,VP Raisin Smushing,raymond@example.com,559-555-1212
+
+Thomas,Mary,Sr. Associate Raisin Design,mary@example.com,559-555-2300
+
+Davis,Harold,Chief Raisin Picker,harold@example.com,559-555-2318
+
+Masterson,Martin,Asst Raisin Smusher,martin@example.com,559-555-2348
+
+Jones,David,Grape Ager,david@example.com,559-555-2379
+
+Zapata,Luis,VP Grape Sales,luis@example.com,559-555-2301
+
+Gunter,Fritz,Grape Smusher,fritz@example.com,559-555-2333
+
+Pichon,Esmerela,Head Raisin Counter,esmerelda@example.com,559-555-2397
+
+Blain,Marilyn,Raisin Packager,marilyn@example.com,559-555-6565
+
+Marks,Blair,VP Investor Relations,blair@example.com,559-555-6513
+
+Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700
+
+>>> line
+'Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700\n'
+>>> ================================ RESTART ================================
+>>> 
+Hettinger,Raymond,VP Raisin Smushing,raymond@example.com,559-555-1212
+Thomas,Mary,Sr. Associate Raisin Design,mary@example.com,559-555-2300
+Davis,Harold,Chief Raisin Picker,harold@example.com,559-555-2318
+Masterson,Martin,Asst Raisin Smusher,martin@example.com,559-555-2348
+Jones,David,Grape Ager,david@example.com,559-555-2379
+Zapata,Luis,VP Grape Sales,luis@example.com,559-555-2301
+Gunter,Fritz,Grape Smusher,fritz@example.com,559-555-2333
+Pichon,Esmerela,Head Raisin Counter,esmerelda@example.com,559-555-2397
+Blain,Marilyn,Raisin Packager,marilyn@example.com,559-555-6565
+Marks,Blair,VP Investor Relations,blair@example.com,559-555-6513
+Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700
+>>> line
+'Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700\n'
+>>> ================================ RESTART ================================
+>>> 
+Hettinger,Raymond,VP Raisin Smushing,raymond@example.com,559-555-1212
+
+Thomas,Mary,Sr. Associate Raisin Design,mary@example.com,559-555-2300
+
+Davis,Harold,Chief Raisin Picker,harold@example.com,559-555-2318
+
+Masterson,Martin,Asst Raisin Smusher,martin@example.com,559-555-2348
+
+Jones,David,Grape Ager,david@example.com,559-555-2379
+
+Zapata,Luis,VP Grape Sales,luis@example.com,559-555-2301
+
+Gunter,Fritz,Grape Smusher,fritz@example.com,559-555-2333
+
+Pichon,Esmerela,Head Raisin Counter,esmerelda@example.com,559-555-2397
+
+Blain,Marilyn,Raisin Packager,marilyn@example.com,559-555-6565
+
+Marks,Blair,VP Investor Relations,blair@example.com,559-555-6513
+
+Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700
+
+>>> line
+'Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700\n'
+>>> line.rstrip()
+'Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700'
+>>> line
+'Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700\n'
+>>> ================================ RESTART ================================
+>>> 
+Hettinger,Raymond,VP Raisin Smushing,raymond@example.com,559-555-1212
+Thomas,Mary,Sr. Associate Raisin Design,mary@example.com,559-555-2300
+Davis,Harold,Chief Raisin Picker,harold@example.com,559-555-2318
+Masterson,Martin,Asst Raisin Smusher,martin@example.com,559-555-2348
+Jones,David,Grape Ager,david@example.com,559-555-2379
+Zapata,Luis,VP Grape Sales,luis@example.com,559-555-2301
+Gunter,Fritz,Grape Smusher,fritz@example.com,559-555-2333
+Pichon,Esmerela,Head Raisin Counter,esmerelda@example.com,559-555-2397
+Blain,Marilyn,Raisin Packager,marilyn@example.com,559-555-6565
+Marks,Blair,VP Investor Relations,blair@example.com,559-555-6513
+Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700
+>>> line
+'Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700'
+>>> dir(str)
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_formatter_field_name_split', '_formatter_parser', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'index', 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> help(str.split)
+Help on method_descriptor:
+
+split(...)
+    S.split([sep [,maxsplit]]) -> list of strings
+    
+    Return a list of the words in the string S, using sep as the
+    delimiter string.  If maxsplit is given, at most maxsplit
+    splits are done. If sep is not specified or is None, any
+    whitespace string is a separator and empty strings are removed
+    from the result.
+
+>>> ================================ RESTART ================================
+>>> 
+['Hettinger,Raymond,VP', 'Raisin', 'Smushing,raymond@example.com,559-555-1212']
+['Thomas,Mary,Sr.', 'Associate', 'Raisin', 'Design,mary@example.com,559-555-2300']
+['Davis,Harold,Chief', 'Raisin', 'Picker,harold@example.com,559-555-2318']
+['Masterson,Martin,Asst', 'Raisin', 'Smusher,martin@example.com,559-555-2348']
+['Jones,David,Grape', 'Ager,david@example.com,559-555-2379']
+['Zapata,Luis,VP', 'Grape', 'Sales,luis@example.com,559-555-2301']
+['Gunter,Fritz,Grape', 'Smusher,fritz@example.com,559-555-2333']
+['Pichon,Esmerela,Head', 'Raisin', 'Counter,esmerelda@example.com,559-555-2397']
+['Blain,Marilyn,Raisin', 'Packager,marilyn@example.com,559-555-6565']
+['Marks,Blair,VP', 'Investor', 'Relations,blair@example.com,559-555-6513']
+['Schmidt,Gertrude,VP', 'Business', 'Development,gertrude@example.com,559-555-6700']
+>>> line
+'Schmidt,Gertrude,VP Business Development,gertrude@example.com,559-555-6700'
+>>> ================================ RESTART ================================
+>>> 
+['Hettinger', 'Raymond', 'VP Raisin Smushing', 'raymond@example.com', '559-555-1212']
+['Thomas', 'Mary', 'Sr. Associate Raisin Design', 'mary@example.com', '559-555-2300']
+['Davis', 'Harold', 'Chief Raisin Picker', 'harold@example.com', '559-555-2318']
+['Masterson', 'Martin', 'Asst Raisin Smusher', 'martin@example.com', '559-555-2348']
+['Jones', 'David', 'Grape Ager', 'david@example.com', '559-555-2379']
+['Zapata', 'Luis', 'VP Grape Sales', 'luis@example.com', '559-555-2301']
+['Gunter', 'Fritz', 'Grape Smusher', 'fritz@example.com', '559-555-2333']
+['Pichon', 'Esmerela', 'Head Raisin Counter', 'esmerelda@example.com', '559-555-2397']
+['Blain', 'Marilyn', 'Raisin Packager', 'marilyn@example.com', '559-555-6565']
+['Marks', 'Blair', 'VP Investor Relations', 'blair@example.com', '559-555-6513']
+['Schmidt', 'Gertrude', 'VP Business Development', 'gertrude@example.com', '559-555-6700']
+>>> ================================ RESTART ================================
+>>> 
+Hettinger
+Thomas
+Davis
+Masterson
+Jones
+Zapata
+Gunter
+Pichon
+Blain
+Marks
+Schmidt
+>>> fields
+['Schmidt', 'Gertrude', 'VP Business Development', 'gertrude@example.com', '559-555-6700']
+>>> ================================ RESTART ================================
+>>> 
+Raymond Hettinger
+Mary Thomas
+Harold Davis
+Martin Masterson
+David Jones
+Luis Zapata
+Fritz Gunter
+Esmerela Pichon
+Marilyn Blain
+Blair Marks
+Gertrude Schmidt
+>>> ================================ RESTART ================================
+>>> 
+Raymond Hettinger
+Mary Thomas
+Harold Davis
+Martin Masterson
+David Jones
+Luis Zapata
+Fritz Gunter
+Esmerela Pichon
+Marilyn Blain
+Blair Marks
+Gertrude Schmidt
+BEGIN:VCARD
+VERSION:2.1
+N:Gump;Forrest
+FN:Forrest Gump
+ORG:Bubba Gump Shrimp Co.
+TITLE:Shrimp Man
+PHOTO;GIF:http://www.example.com/dir_photos/my_photo.gif
+TEL;WORK;VOICE:(111) 555-1212
+TEL;HOME;VOICE:(404) 555-1212
+ADR;WORK:;;100 Waters Edge;Baytown;LA;30314;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:100 Waters Edge=0D=0ABaytown, LA 30314=0D=0AUnited States of America
+ADR;HOME:;;42 Plantation St.;Baytown;LA;30314;United States of America
+LABEL;HOME;ENCODING=QUOTED-PRINTABLE:42 Plantation St.=0D=0ABaytown, LA 30314=0D=0AUnited States of America
+EMAIL;PREF;INTERNET:forrestgump@example.com
+REV:20080424T195243Z
+END:VCARD
+
+>>> ================================ RESTART ================================
+>>> 
+Raymond Hettinger
+Mary Thomas
+Harold Davis
+Martin Masterson
+David Jones
+Luis Zapata
+Fritz Gunter
+Esmerela Pichon
+Marilyn Blain
+Blair Marks
+Gertrude Schmidt
+
+Traceback (most recent call last):
+  File "/Users/raymond/Dropbox/Public/qc2/vcard.py", line 26, in <module>
+    print vcard_template % (lastname, firstname, firstname, lastname, title, phone, email)
+TypeError: not all arguments converted during string formatting
+>>> ================================ RESTART ================================
+>>> 
+Raymond Hettinger
+Mary Thomas
+Harold Davis
+Martin Masterson
+David Jones
+Luis Zapata
+Fritz Gunter
+Esmerela Pichon
+Marilyn Blain
+Blair Marks
+Gertrude Schmidt
+BEGIN:VCARD
+VERSION:2.1
+N:Schmidt;Gertrude
+FN:Gertrude Schmidt
+ORG:Raisins R Us, Inc.
+TITLE:VP Business Development
+TEL;WORK;VOICE:gertrude@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-6700
+REV:20150824T195243Z
+END:VCARD
+
+>>> ================================ RESTART ================================
+>>> 
+BEGIN:VCARD
+VERSION:2.1
+N:Hettinger;Raymond
+FN:Raymond Hettinger
+ORG:Raisins R Us, Inc.
+TITLE:VP Raisin Smushing
+TEL;WORK;VOICE:raymond@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-1212
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Thomas;Mary
+FN:Mary Thomas
+ORG:Raisins R Us, Inc.
+TITLE:Sr. Associate Raisin Design
+TEL;WORK;VOICE:mary@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2300
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Davis;Harold
+FN:Harold Davis
+ORG:Raisins R Us, Inc.
+TITLE:Chief Raisin Picker
+TEL;WORK;VOICE:harold@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2318
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Masterson;Martin
+FN:Martin Masterson
+ORG:Raisins R Us, Inc.
+TITLE:Asst Raisin Smusher
+TEL;WORK;VOICE:martin@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2348
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Jones;David
+FN:David Jones
+ORG:Raisins R Us, Inc.
+TITLE:Grape Ager
+TEL;WORK;VOICE:david@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2379
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Zapata;Luis
+FN:Luis Zapata
+ORG:Raisins R Us, Inc.
+TITLE:VP Grape Sales
+TEL;WORK;VOICE:luis@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2301
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Gunter;Fritz
+FN:Fritz Gunter
+ORG:Raisins R Us, Inc.
+TITLE:Grape Smusher
+TEL;WORK;VOICE:fritz@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2333
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Pichon;Esmerela
+FN:Esmerela Pichon
+ORG:Raisins R Us, Inc.
+TITLE:Head Raisin Counter
+TEL;WORK;VOICE:esmerelda@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2397
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Blain;Marilyn
+FN:Marilyn Blain
+ORG:Raisins R Us, Inc.
+TITLE:Raisin Packager
+TEL;WORK;VOICE:marilyn@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-6565
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Marks;Blair
+FN:Blair Marks
+ORG:Raisins R Us, Inc.
+TITLE:VP Investor Relations
+TEL;WORK;VOICE:blair@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-6513
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Schmidt;Gertrude
+FN:Gertrude Schmidt
+ORG:Raisins R Us, Inc.
+TITLE:VP Business Development
+TEL;WORK;VOICE:gertrude@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-6700
+REV:20150824T195243Z
+END:VCARD
+
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+>>> 
+>>> 
+>>> template = 'Hello %s.  My name is %s'
+>>> result = template % ('Rachel', 'Raymond')
+>>> type(result)
+<type 'str'>
+>>> print result
+Hello Rachel.  My name is Raymond
+>>> ================================ RESTART ================================
+>>> 
+BEGIN:VCARD
+VERSION:2.1
+N:Hettinger;Raymond
+FN:Raymond Hettinger
+ORG:Raisins R Us, Inc.
+TITLE:VP Raisin Smushing
+TEL;WORK;VOICE:raymond@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-1212
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Thomas;Mary
+FN:Mary Thomas
+ORG:Raisins R Us, Inc.
+TITLE:Sr. Associate Raisin Design
+TEL;WORK;VOICE:mary@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2300
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Davis;Harold
+FN:Harold Davis
+ORG:Raisins R Us, Inc.
+TITLE:Chief Raisin Picker
+TEL;WORK;VOICE:harold@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2318
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Masterson;Martin
+FN:Martin Masterson
+ORG:Raisins R Us, Inc.
+TITLE:Asst Raisin Smusher
+TEL;WORK;VOICE:martin@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2348
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Jones;David
+FN:David Jones
+ORG:Raisins R Us, Inc.
+TITLE:Grape Ager
+TEL;WORK;VOICE:david@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2379
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Zapata;Luis
+FN:Luis Zapata
+ORG:Raisins R Us, Inc.
+TITLE:VP Grape Sales
+TEL;WORK;VOICE:luis@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2301
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Gunter;Fritz
+FN:Fritz Gunter
+ORG:Raisins R Us, Inc.
+TITLE:Grape Smusher
+TEL;WORK;VOICE:fritz@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2333
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Pichon;Esmerela
+FN:Esmerela Pichon
+ORG:Raisins R Us, Inc.
+TITLE:Head Raisin Counter
+TEL;WORK;VOICE:esmerelda@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-2397
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Blain;Marilyn
+FN:Marilyn Blain
+ORG:Raisins R Us, Inc.
+TITLE:Raisin Packager
+TEL;WORK;VOICE:marilyn@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-6565
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Marks;Blair
+FN:Blair Marks
+ORG:Raisins R Us, Inc.
+TITLE:VP Investor Relations
+TEL;WORK;VOICE:blair@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-6513
+REV:20150824T195243Z
+END:VCARD
+
+BEGIN:VCARD
+VERSION:2.1
+N:Schmidt;Gertrude
+FN:Gertrude Schmidt
+ORG:Raisins R Us, Inc.
+TITLE:VP Business Development
+TEL;WORK;VOICE:gertrude@example.com
+ADR;WORK:;;100 Flat Grape Dr;Fresno;CA;95555;United States of America
+EMAIL;PREF;INTERNET:559-555-6700
+REV:20150824T195243Z
+END:VCARD
+
+>>> filename
+'Gertrude_Schmidt.vcf'
+>>> 

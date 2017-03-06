@@ -1,0 +1,408 @@
+Introduction to Python
+Cisco -- RTP
+March 06, 2017
+================================
+
+Taught by:  Davin Potts
+            davin@appliomics.com
+            Raymond Hettinger's Intro to Python Course Material
+            rachel.hettinger@outlook.com  <-- write to Rachel for class bookings
+
+
+Downloading Python2.7
+=====================
+
+    Windows:  https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi
+
+    Mac:      https://www.python.org/ftp/python/2.7.13/python-2.7.13-macosx10.6.pkg
+
+    Alternatively:   https://www.continuum.io/downloads  (Windows, Mac, Linux)
+
+
+Resources
+=========
+* http://code.activestate.com/recipes/langs/python/
+* http://pymotw.com/2/xml/etree/ElementTree/index.html#module-xml.etree.ElementTree
+* http://txt2re.com/
+* http://interactive.blockdiag.com/graphviz/
+* http://graphviz.org
+* http://sms411.net/how-to-send-email-to-a-phone/
+* http://www.doughellmann.com/PyMOTW/py-modindex.html
+* http://code.activestate.com/recipes/577737-public-key-encryption-rsa/
+* https://www.mturk.com/mturk/welcome
+* http://www.edwardtufte.com/tufte/courses
+* http://www.pythontutor.com/
+* http://www.noah.org/wiki/pexpect
+
+
+Favorite Third-Party Modules
+============================
+* http://www.noah.org/wiki/pexpect
+* http://pyserial.sourceforge.net/shortintro.html
+* http://docs.python-requests.org/en/latest/index.html
+* http://www.crummy.com/software/BeautifulSoup/
+* http://sphinx.pocoo.org/
+* http://docs.fabfile.org/en/1.4.1/index.html
+
+
+Other popular tools:
+    pip virtualenv http5lib pyflakes pytz nose
+    xlrd xlwt pyserial reverend.thomas requests
+    numpy scipy matplotlib pandas itty bottle ipython
+
+
+Recommended Reading
+===================
+* http://norvig.com/spell-correct.html
+* http://docs.python.org/library/functions.html
+* http://www.clemesha.org/blog/modern-python-hacker-tools-virtualenv-fabric-pip/
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/call_by_object.txt
+* http://jessenoller.com/blog/2009/02/05/ssh-programming-with-paramiko-completely-different
+
+
+Magic Methods
+=============
+* http://docs.python.org/reference/datamodel.html#special-method-names
+* http://www.rafekettler.com/magicmethods.html
+
+
+Class Files
+===========
+
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/links.txt
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/portfolio.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/oop_demo.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/basics.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/vcard.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/Raymond_Hettinger.png
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/Raymond_Hettinger.vcf
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/show_ipv4.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/re_demo.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/crossword_challenge.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/star_school.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/re_intro.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/scrape.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/analysis.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/terminology.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/show_team_history_json.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/xml_parsing.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/library_tour.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/statistics.py
+
+
+How to Use Subprocess
+=====================
+
+    >>> import subprocess
+    >>> s = subprocess.check_output('netstat -a', shell=True)
+    >>> [line.split()[4] for line in s.splitlines() if 'tcp4' in line]
+
+
+Code Reading Examples
+=====================
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/picirc.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/banner.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/norvig_corrector.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/corpus.dat
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/highlight.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/publish.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/words.txt
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/fsm.py
+
+
+Books on Programming
+====================
+* Programming Pearls and More Programming Pearls -- Aho
+* The Practice of Programming -- Pike
+* The Pragmatic Programmer -- Thomas
+
+
+Slides
+======
+
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/PythonAwesome.pdf
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/islands.pdf
+
+
+Daily Logs
+==========
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/dayone.log
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/daytwo.log
+
+
+Tools
+=====
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/__init__.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/BeautifulSoup.py
+
+
+Turtle Examples
+===============
+
+    https://dl.dropboxusercontent.com/u/3967849/turtle/pub/index.html
+    http://www.amazon.com/Python-Kids-Playful-Introduction-Programming/dp/1593274076
+
+    Great book on teaching with turtles:  Mindstorms by Papert
+    http://www.amazon.com/Mindstorms-Children-Computers-Powerful-Ideas/dp/0465046746
+
+
+Editors
+=======
+vi users          -- use vi plus ipython  or python-mode
+emacs users       -- use python-mode
+eclipse           -- use pydev plug-in
+python specific   -- pycharm or wing-ide (has a nice debugger) or komodo
+curses tool       -- bpython (curses interface)
+visual studio     -- iron python plug-in
+
+
+Sample Data
+===========
+
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/ipv4_int_bri.txt
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/nasa_19950801.log
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/crossword_challenge.py
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/raisin_team.csv
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/raisin_team_update.csv
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/books.json
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/books.xml
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/rss.xml
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/fruit.xml
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/stocks.txt
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/email.txt
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/team_history.json 
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/team_history.txt
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/re_intro.txt
+http://sdwa.appliomics.com/d/214296984/cisco_rtp_20170306/notes/hamlet.txt
+
+
+
+General Notes
+=============
+
+How to make tuples and lists and dicts and sets:
+
+        Length 0:
+            []
+            ()
+            {}
+            set()
+
+        Length 1:
+            [10]  [10,]
+            10,   (10,)
+            {'raymond': 'red'}
+            {10}
+
+How to generate documentation automatically:
+
+    * python -m pydoc -w kap portfolio
+
+          https://dl.dropbox.com/u/3967849/qc2/kap.html
+          https://dl.dropbox.com/u/3967849/qc2/portfolio.html
+
+
+LIST COMP:
+    [i**2 for i in range(10)]
+
+SET COMP:
+    {i**2 for i in range(-5, 10)}
+
+DICT COMP:
+    {i**2 : i for i in range(10)}
+
+GEN EXP:
+    sum(i**2 for i in range(10))
+    
+
+Regex notation
+===============
+
+    raymond             Does an exact match
+    profit|loss         Match either profit or loss
+    photo_...jpg        Dots match any character     photo_32.jpg
+    photo[a-g].jpg      Brackets match a character group    photoa.jpg photob.jpg
+    [aeiou]             Matches any single vowel
+    [^aeiou]            Matches any single non-vowel
+
+    \d                  [0-9] any digit
+    \D                  [^0-9] any non-digit
+    \w                  [A-Za-z0-9_] alphanumeric text with an underscore
+    \W                  non-alphanumeric without an underscore
+    \s                  space characters
+    \S                  non-space characters
+    \b                  word boundaries
+
+    a?                  Match zero or one       a{0,1}
+    a+                  Match one or more       a{1,}
+    a*                  Match zero or more      a{0,}
+    a{m,n}              Match m to n
+
+    match               Must match right at the beginning   --> match object
+    search              May match anywhere                  --> match object
+    findall             Finds them all                      --> list of matches
+
+    Recommendations:
+    1. Always start with findall()
+    2. Start with a small regex that matches, then grow it.
+    3. Always use raws strings for regexes
+
+    Regular expression groups:
+
+    mo = re.search(r'(\d+)/(\d+)/(\d+)', data)
+    mo.group()    entire match
+    mo.group(0)   entire match
+    mo.group(1)   month
+    mo.group(2)   day
+    mo.group(3)   year
+
+    month, day, year = re.search(r'(\d+)/(\d+)/(\d+)', s).groups()
+
+
+Logging
+=======
+
+To setup a logger:
+
+    import logging
+    logging.basicConfig(filename='example.log',level=logging.DEBUG)
+
+To make log entries:
+    
+    logging.debug(msg)
+    logging.info(msg)
+    logging.error(msg)
+    logging.critical(msg)
+    logging.warn(msg)
+
+
+Debugger
+========
+
+To run the debugger from the command-line (not the interactive prompt):
+
+    $ python -m pdb tweet_bug.py
+
+The most common debugger commands:
+
+    c   - continue until an exception or normal finish
+    n   - next (run to the next line)
+    l   - list the source and show where you are
+    b   - set a breakpoint
+    p   - print a variable
+    pp  - pretty print a variable
+    q   - quit
+
+
+Directories
+===========
+
+Popular commands in the OS module:
+
+    os.getcwd()        # show the current working directory
+    os.listdir('.')    # list the files in a given directory
+    os.chdir(somedir)  # change to another directory
+
+
+An HTTP request
+===============
+GET /index.html HTTP/1.1
+Host: www.python.org
+Connection: close
+
+
+With-Statement
+=============
+
+How to use the with-statement for file closing and lock releasing
+
+    # The old way that STILL works
+    f = open('notes/stocks.txt')
+    try:
+        data = f.read()
+    finally:
+        f.close()
+
+    # The new way
+    with open('notes/stocks.txt') as f:
+        data = f.read()
+
+
+    # The old way that STILL works
+    lock = threading.Lock()
+    lock.acquire()
+    try:
+        crit1()
+        crit2()
+    finally:
+        lock.release()
+
+    # The new way
+    with lock:
+        crit1()
+        crit2()
+
+
+
+Tools
+=====
+
+Pip:
+    $ curl -O http://python-distribute.org/distribute_setup.py
+    $ python distribute_setup.py
+    $ curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+    $ python get-pip.py
+    $ pip install virtualenv
+
+
+
+VirtualEnv:
+    http://pypi.python.org/pypi/virtualenv
+
+    $ virtualenv myproj
+    $ source myproj/bin/activate
+    $ pip install requests
+    $ pip install flask
+    
+    
+    (myproj) $ pip install django
+    (myproj) $ python
+    >>> import django
+    >>> ^D
+    (myproj) $ deactivate
+    $ # back to normal
+
+PyFlakes -- Avoid embarrassment using a Python lint
+
+    $ pip install pyflakes
+    $ pyflakes getflow.py
+
+
+REST APIs:
+==========
+QR codes:
+    https://developers.google.com/chart/infographics/docs/qr_codes
+    http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=Hello%20World --> hello.png
+Twitter:
+    https://dev.twitter.com/docs/api/1/get/search
+    http://search.twitter.com/search.json?q=@raymondh&rpp=10
+
+
+Suggestions for Little Python Projects
+======================================
+1) Use MS Excel to create a list of your teammate's names, titles, phone numbers, and email addresses.
+   Save the file as CSV.  Use Python's CSV reader to loop over the data.  Use a print template to
+   create VCard files (see wikipedia for the VCard format).  Use the code from tweet.py as a model
+   for creating QR codes from the Vcards (see the REST API links above).
+   
+2) Read the wikipedia article on Benford's law.  Write a screen scraper that retrieves arbitrary urls
+   and uses regular expressions to extract the numbers.  Display a histogram of the leading digits.
+   Compute a chi-square statistic on the expected versus actual distribution.  Conclude whether the
+   distribution is "natural".
+   
+3) Make a list of servers you have access to.  Use Python to generated ping's between them.
+   Summarize the ping times in a graph structure (use a dict  d[fromserver, toserver]=pingtime).
+   Generate graphviz output, possibly showing each node in a position corresponding to its
+   physical location).
+
+4) Project Euclid or Euler
